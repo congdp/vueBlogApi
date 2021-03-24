@@ -31,7 +31,7 @@ export default {
       }
       console.log('+++++++++++++++',params)
       axios
-        .get('http://localhost:8000/api/blogs', { params })
+        .get('http://localhost:8000/api/blog', { params })
         .then((res) => {
           this.dataBlogs = res.data
           console.log(res.data)
